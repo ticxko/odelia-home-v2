@@ -80,6 +80,9 @@
     .bg-background{
         background-color: rgba(var(--v-theme-primary),0.1) !important;
     }
+    .bg-background-2{
+        background-color: rgba(var(--v-theme-primary),0.30) !important;
+    }
     .v-application__wrap,.v-app-bar.v-toolbar {
         background-color: rgba(var(--v-theme-primary),0.1) !important;
     }
