@@ -20,7 +20,7 @@ const customizer = useCustomizerStore();
             <v-app-bar height="80" class="lp-header" flat>
                 <v-container class="maxWidth py-sm-4 py-0">
                     <v-toolbar class="d-flex align-center bg-surface">
-                        <div>
+                        <div class="d-flex align-center" style="height: 100%;">
                             <Logo />
                         </div>
                         <!-- Desktop view Navigation -->

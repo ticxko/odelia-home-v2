@@ -23,6 +23,11 @@ const AuthRoutes = {
             component: () => import('@/views/pages/front-pages/Aboutpage.vue')
         },
         {
+            name: 'Services',
+            path: '/front-page/services',
+            component: () => import('@/views/pages/front-pages/Servicespage.vue')
+        },
+        {
             name: 'Contact',
             path: '/front-page/contact-us',
             component: () => import('@/views/pages/front-pages/Contactpage.vue')

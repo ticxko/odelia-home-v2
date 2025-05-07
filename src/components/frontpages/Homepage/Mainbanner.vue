@@ -40,30 +40,30 @@ const technology = ref([
             <v-row class="d-flex justify-center align-center">
                 <v-col cols="12" lg="6" class="text-align-start">
                     <h1 class="text-56 textPrimary font-weight-medium">
-                        <b>Renovasi Mudah, Kualitas Terjaga</b>
+                        <b>Digital Craftsmanship for Your Modern Business.</b>
                     </h1>
                     <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
                         <div class="d-sm-flex text-muted">
-                            <h2 class="font-weight-medium ml-2">Rumah Anda, tampil lebih segar dengan renovasi kecil yang penuh makna. Mulai perubahan bersama Ratunda &#128522; </h2>
+                            <h2 class="font-weight-medium ml-2">We help businesses grow with end-to-end application development crafted for performance, usability, and scale.</h2>
                         </div>
                     </div>
                     <div class="d-flex flex-wrap  ga-sm-6 ga-3 pt-9 pb-7 justify-md-start justify-center align-center technology">
-                        <div v-for="(item, i) in technology" :key="i">
+                   <!--     <div v-for="(item, i) in technology" :key="i">
                             <div class="d-flex justify-center align-center round-56 rounded-xl bg-surface elevation-1">
                                 <img :src="item.img" alt="technology" height="30" />
                             </div>
                             <v-tooltip activator="parent" location="bottom">{{ item.name }}</v-tooltip>
-                        </div>
-                    </div>
+                        </div> -->
+                    </div> 
                     <div class="d-flex justify-md-start justify-center">
                         <v-btn color="primary" rounded="pill" class="px-8 transform-none m-btn-full" size="large"  href="/auth/login" target="_blank"
-                            >Mulai Sekarang!</v-btn
+                            >Contact us now</v-btn
                         >
                     </div>
                 </v-col>
                 <v-col cols="12" lg="6">
                     <div class="main-banner d-lg-block d-none">
-                        <img src="@/assets/images/front-pages/background/renovation.png" alt="banner-right-image" class="rtlImg" />
+                        <img src="@/assets/images/front-pages/background/hero-x1.png" alt="banner-right-image" class="rtlImg" />
                     </div>
                 </v-col>
             </v-row>

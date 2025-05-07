@@ -12,6 +12,11 @@ const navigation = ref([
         badge: false
     },
     {
+        menu: 'Services',
+        href: '/front-page/services',
+        badge: false
+    },
+    {
         menu: 'Blog',
         href: '/front-page/blog/posts',
         badge: false

@@ -33,7 +33,7 @@ function handleScroll() {
                     <v-toolbar class="d-flex align-center">
                         <!-- Logo -->
                        
-                        <div >
+                        <div class="d-flex align-center" style="height: 100%;">
                             <Logo />
                         </div>
 
