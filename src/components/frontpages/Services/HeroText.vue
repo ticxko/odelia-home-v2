@@ -29,9 +29,9 @@
         <v-container class="max-width-1218">
             <v-row class="d-flex">
                 <v-col cols="12" lg="6" class="text-align-start">
-                    <h1 class="text-40 textPrimary font-weight-regular">
+                    <h2 class="text-40 textPrimary font-weight-regular">
                         <span class="font-weight-bold">UI/UX Design</span><br>Designs That Drive Impact
-                    </h1>
+                    </h2>
                     <div class="d-sm-flex d-block gap-4 justify-md-start justify-center align-center mt-6">
                         <v-btn color="primary" class="h-43 px-5 m-btn-full" size="large" rounded="pill" flat href="/auth/register" target="_blank"
                             >Create an Account</v-btn
@@ -53,7 +53,7 @@
         <v-container class="max-width-1218">
             <v-row class="d-flex">
                 <v-col cols="12" lg="6" class="text-align-start">
-                    <h2 class="text-50 textPrimary font-weight-regular">
+                    <h2 class="text-40 textPrimary font-weight-regular">
                         <span class="font-weight-bold">Fullstack Application Development</span><br>End-to-End Digital Solutions
                     </h2>
                     <div class="d-sm-flex d-block gap-4 justify-md-start justify-center align-center mt-6">
@@ -77,9 +77,9 @@
         <v-container class="max-width-1218">
             <v-row class="d-flex">
                 <v-col cols="12" lg="6" class="text-align-start">
-                    <h1 class="text-50 textPrimary font-weight-regular">
+                    <h2 class="text-40 textPrimary font-weight-regular">
                         <span class="font-weight-bold">System Integration</span><br>Seamlessly Connected Applications
-                    </h1>
+                    </h2>
                     <div class="d-sm-flex d-block gap-4 justify-md-start justify-center align-center mt-6">
                         <v-btn color="primary" class="h-43 px-5 m-btn-full" size="large" rounded="pill" flat href="/auth/register" target="_blank"
                             >Create an Account</v-btn
