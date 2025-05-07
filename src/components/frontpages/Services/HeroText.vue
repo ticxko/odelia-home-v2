@@ -25,7 +25,7 @@
             </v-row>
         </v-container>
     </div>
-    <div class="bg-background py-lg-14 py-7">
+    <div class="bg-background-2 py-lg-14 py-7">
         <v-container class="max-width-1218">
             <v-row class="d-flex">
                 <v-col cols="12" lg="6" class="text-align-start">
