@@ -9,7 +9,6 @@ import DefaultLayout from '@/views/pages/front-pages/Layout.vue';
 <template>
     <DefaultLayout>
         <TextBannerCard title="We’d love to hear from you" caption="Contact Us" />
-        <ContactMap/>
         <ContactForm/>
        
     </DefaultLayout>

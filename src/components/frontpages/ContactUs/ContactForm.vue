@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 const select = ref('General Enquiry');
-const items = ref(['General Enquiry', 'option 2', 'option 3', 'option 4']);
+const items = ref(['General Enquiry', 'UI/UX Design', 'Fullstack Application Development', 'System Integration']);
 </script>
 <template>
     <div class="pt-3 bg-background pb-14">
@@ -15,7 +15,7 @@ const items = ref(['General Enquiry', 'option 2', 'option 3', 'option 4']);
                             Have questions or need assistance? We're just a message away.
                         </p>
                         <v-divider class="my-10 opacity-20"></v-divider>
-                        <h4 class="text-18 font-weight-bold mb-4">Our Location</h4>
+                        <h4 class="text-18 font-weight-bold mb-4">📍 Our Location</h4>
                         <p class="text-16 font-weight-regular">
                             Visit us in person or find our contact details to connect with us directly.
                         </p>
