@@ -134,7 +134,7 @@
     }
 }
 .v-theme--ORANGE_THEME{
-    .bg-background{
+    .bg-background { 
         background-color: rgba(var(--v-theme-primary),0.1) !important;
     }
     .v-application__wrap,.v-app-bar.v-toolbar {
@@ -142,7 +142,7 @@
     }
     &.horizontalLayout{
         .v-app-bar.v-toolbar {
-            background-color: rgba(var(--v-theme-containerBg))!important;
+        background-color: rgba(var(--v-theme-containerBg))!important;
         }
     }
 }
@@ -150,6 +150,15 @@
 .v-theme--ODELIA_THEME{
     .bg-background {
         background-color: rgba(var(--v-theme-primary),0.1) !important;
+    }
+    .bg-background-mainbanner {
+        background-image: url('@/assets/images/front-pages/background/odelia-mainbanner-right.png');
+        background-size: cover;        /* Make image cover the whole container */
+        background-position: center;   /* Center the image */
+        background-repeat: no-repeat;  /* Prevent repeating */
+        padding: 40px;                 /* Give space for text */
+        color: white;                  /* Text color */
+        position: relative;           /* Ensure positioning works if layering needed */
     }
     .bg-background-odelia {
         background-color: #f63d68 !important;
