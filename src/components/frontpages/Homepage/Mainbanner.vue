@@ -11,7 +11,7 @@ import Logo from '@/layouts/full/logo/Logo.vue';
                     <div class="d-flex align-center" style="height: 100%;">
                             <Logo />
                     </div>
-                    <h1 class="text-56 textPrimary font-weight-medium fraunces-h1">
+                    <h1 class="textPrimary fraunces-h1">
                         <b>Pelayanan Berkualitas dari Bidan Indonesia</b>
                     </h1>
                     <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
