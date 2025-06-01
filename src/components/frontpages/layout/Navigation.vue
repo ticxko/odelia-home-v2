@@ -48,6 +48,7 @@ const isActive = (href: string) => route.path === href;
 </script>
 
 <template>
+
     <div class="d-flex flex-lg-row flex-column align-lg-center justify-space-between w-100 ga-lg-6 ga-4 pa-lg-0 pa-6">
         <div class="d-lg-none d-block mb-4">
             <Logo />
@@ -73,4 +74,12 @@ const isActive = (href: string) => route.path === href;
             <span class="text-white">Log in</span>
         </v-btn>
     </div>
+
 </template>
+
+
+<style scoped>
+.custom-blocked-div {
+
+}
+</style>

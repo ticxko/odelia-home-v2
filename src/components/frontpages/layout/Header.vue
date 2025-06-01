@@ -28,7 +28,7 @@ function handleScroll() {
             <!-- -----------------------------------------------
                     Start Header
                     ----------------------------------------------- -->
-            <v-app-bar height="80" class="front-lp-header position-relative " flat :class="stickyHeader ? 'sticky-header py-0' : 'py-md-4'">
+            <v-app-bar height="80" class="front-lp-header position-relative " flat>
                 <v-container class="py-0 max-width-1218">
                     <v-toolbar class="d-flex align-center">
                         <!-- Logo -->
@@ -67,5 +67,11 @@ function handleScroll() {
 <style lang="scss" scoped>
 .v-container {
     max-width: 1200px !important;
+}
+</style>
+
+<style scoped>
+.custom-blocked-div {
+
 }
 </style>
