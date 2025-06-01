@@ -8,10 +8,13 @@ import { Icon } from '@iconify/vue';
         <v-container class="max-width-1218">
             <v-row>
                 <v-col cols="12" lg="5">
-                    <h2 class="display-1 textPrimary font-weight-bold">Over 45,000 clients and counting.</h2>
-                    <p class="text-grey100 py-6 text-17 lh-32 pe-lg-4">
-                        Pellentesque varius semper odio non pretium. Nullam sagittis neque orci, eu elementum enim.
-                    </p>
+                    <h2 class="display-1 textPrimary font-weight-bold">Lebih dari 8,000 Bidan telah terdaftar and teregistrasi dengan Satu Sehat</h2>
+                    
+                    <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
+                        <div class="d-sm-flex text-muted">
+                            <h3 class="font-weight-medium ml-2">Beragam layanan yang kami sediakan untuk membantu bidan dalam meningkatkan kualitas pelayanan kesehatan ibu dan anak.</h3>
+                        </div>
+                    </div>
                     <RouterLink
                         to=""
                         target="_blank"
@@ -36,3 +39,45 @@ import { Icon } from '@iconify/vue';
         </v-container>
     </div>
 </template>
+
+
+<style scoped>
+h1 {
+    font-family: 'Fraunces', serif;
+    color: rgb(35, 35, 35);
+    text-align: left;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(55, 55, 55);
+    text-align: left;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('@/assets/fonts/Fraunces_72pt_Soft-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('@/assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('@/assets/fonts/Outfit-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+</style>

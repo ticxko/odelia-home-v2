@@ -20,12 +20,6 @@ import Logo from '@/layouts/full/logo/Logo.vue';
                         </div>
                     </div>
                     <div class="d-flex flex-wrap  ga-sm-6 ga-3 pt-9 pb-7 justify-md-start justify-center align-center technology">
-                   <!--     <div v-for="(item, i) in technology" :key="i">
-                            <div class="d-flex justify-center align-center round-56 rounded-xl bg-surface elevation-1">
-                                <img :src="item.img" alt="technology" height="30" />
-                            </div>
-                            <v-tooltip activator="parent" location="bottom">{{ item.name }}</v-tooltip>
-                        </div> -->
                     </div> 
                     <div class="d-flex justify-md-start justify-center">
                         <v-btn color="primary" rounded="pill" class="px-8 transform-none m-btn-full" size="large"  href="/auth/login" target="_blank">Daftar Baru</v-btn>
