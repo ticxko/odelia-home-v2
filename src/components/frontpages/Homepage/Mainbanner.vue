@@ -1,11 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import icon1 from '@/assets/images/front-pages/technology/Vuejs.svg';
-import icon2 from '@/assets/images/front-pages/technology/Vuetify.svg';
-import icon3 from '@/assets/images/front-pages/technology/Vite.svg';
-import icon4 from '@/assets/images/front-pages/technology/Typescript.svg';
-import icon5 from '@/assets/images/front-pages/technology/Pinia.svg';
-import icon6 from '@/assets/images/front-pages/technology/Apexchart.svg';
+import Logo from '@/layouts/full/logo/Logo.vue';
 
 const technology = ref([
     {
@@ -39,12 +34,15 @@ const technology = ref([
         <v-container class="max-width-1218 pt-md-10 pt-6 pb-xl-0 pb-10">
             <v-row class="d-flex justify-center align-center">
                 <v-col cols="12" lg="6" class="text-align-start">
+                    <div class="d-flex align-center" style="height: 100%;">
+                            <Logo />
+                    </div>
                     <h1 class="text-56 textPrimary font-weight-medium">
-                        <b>Digital Craftsmanship for Your Modern Business.</b>
+                        <b>Pelayanan Berkualitas untuk Buah Hati Anda</b>
                     </h1>
                     <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
                         <div class="d-sm-flex text-muted">
-                            <h2 class="font-weight-medium ml-2">We help businesses grow with end-to-end application development crafted for performance, usability, and scale.</h2>
+                            <h2 class="font-weight-medium ml-2">Transformasikan layanan kesehatan Anda dengan pencatatan digital yang efisien dan modern. Tingkatkan kualitas pelayanan bidan Anda dan pastikan setiap momen berharga terdokumentasi dengan tepat di era digital ini. Bergabunglah sekarang untuk pelayanan yang lebih baik</h2>
                         </div>
                     </div>
                     <div class="d-flex flex-wrap  ga-sm-6 ga-3 pt-9 pb-7 justify-md-start justify-center align-center technology">
@@ -56,14 +54,12 @@ const technology = ref([
                         </div> -->
                     </div> 
                     <div class="d-flex justify-md-start justify-center">
-                        <v-btn color="primary" rounded="pill" class="px-8 transform-none m-btn-full" size="large"  href="/auth/login" target="_blank"
-                            >Contact us now</v-btn
-                        >
+                        <v-btn color="primary" rounded="pill" class="px-8 transform-none m-btn-full" size="large"  href="/auth/login" target="_blank">Daftar Baru</v-btn>
                     </div>
                 </v-col>
                 <v-col cols="12" lg="6">
                     <div class="main-banner d-lg-block d-none">
-                        <img src="@/assets/images/front-pages/background/hero-x1.png" alt="banner-right-image" class="rtlImg" />
+                        <img src="@/assets/images/front-pages/background/odelia-mainbanner.png" alt="banner-right-image" class="rtlImg" />
                     </div>
                 </v-col>
             </v-row>

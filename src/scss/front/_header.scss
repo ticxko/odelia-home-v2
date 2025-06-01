@@ -1,7 +1,8 @@
 .front-lp-header {
 
     .v-toolbar{
-        background: rgb(var(--v-theme-surface));
+        // background: rgb(var(--v-theme-surface));
+        background-color: #f63d68;
     }
     
     &.v-app-bar .v-toolbar__content {
@@ -11,23 +12,28 @@
 
     .v-toolbar__content {
       //  background: transparent !important;
+        background-color: #f63d68;
         box-shadow: none !important;
     }
 
     &.v-toolbar {
-       // background: transparent !important;
+        // background: transparent !important;
+        background-color: #f63d68;
         top: 0 !important;
     }
 
     .v-toolbar {
        // background: transparent !important;
+       background-color: #f63d68;
     }
 
     &.sticky-header {
         position: fixed !important;
         top: 0 !important;
-       // transition: 0.5s;
-        background-color: rgba(var(--v-theme-surface)) !important;
+        // transition: 0.5s;
+        // background-color: rgba(var(--v-theme-surface)) !important;
+        background-color: #f63d68;
+        
         
     }
 

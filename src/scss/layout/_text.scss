@@ -77,6 +77,15 @@ $sizes: (
     }
 }
 
+.text-head-nav-odelia {
+    color: white;
+    &:hover {
+        color: #f5cfd8;
+    }
+}
+
+
+
 .link {
     color: rgb(var(--v-theme-textSecondary));
     text-decoration: none;

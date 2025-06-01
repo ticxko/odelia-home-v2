@@ -148,11 +148,15 @@
 }
 
 .v-theme--ODELIA_THEME{
-    .bg-background{
+    .bg-background {
         background-color: rgba(var(--v-theme-primary),0.1) !important;
     }
+    .bg-background-odelia {
+        background-color: #f63d68 !important;
+    }
     .v-application__wrap,.v-app-bar.v-toolbar {
-        background-color: rgba(var(--v-theme-primary),0.1) !important;
+        background-color: #f63d68 !important;
+        // background-color: rgba(var(--v-theme-primary),0.1) !important;
     }
     &.horizontalLayout{
         .v-app-bar.v-toolbar {

@@ -7,17 +7,17 @@ const route = useRoute(); // Get current route
 
 const navigation = ref([
     {
-        menu: 'About Us',
-        href: '/front-page/about-us',
+        menu: 'Beranda',
+        href: '/front-page/homepage',
         badge: false
     },
     {
-        menu: 'Services',
+        menu: 'Profil',
         href: '/front-page/services',
         badge: false
     },
     {
-        menu: 'Blog',
+        menu: 'Berita',
         href: '/front-page/blog/posts',
         badge: false
     },
@@ -37,7 +37,7 @@ const navigation = ref([
         badge: false
     },
     {
-        menu: 'Contact',
+        menu: 'Kontak',
         href: '/front-page/contact-us',
         badge: false
     }
@@ -59,8 +59,8 @@ const isActive = (href: string) => route.path === href;
                 <RouterLink
                     :to="item.href"
                     :class="[
-                        'text-15 font-weight-semibold text-decoration-none text-hover-primary d-flex align-center ga-2 px-3 py-lg-1 py-2 lg-w-auto w-100',
-                        isActive(item.href) ? 'text-primary light-primary rounded-pill' : ''
+                        'text-15 font-weight-semibold text-decoration-none text-head-nav-odelia d-flex align-center ga-2 px-3 py-lg-1 py-2 lg-w-auto w-100',
+                        isActive(item.href) ? 'text-primary selected-menu rounded-pill' : ''
                     ]"
                 >
                     {{ item.menu }}
@@ -77,9 +77,10 @@ const isActive = (href: string) => route.path === href;
 
 </template>
 
-
 <style scoped>
-.custom-blocked-div {
-
+.selected-menu {
+  background-color: #fff;
+  padding: 0;
+  width: 100%;
 }
 </style>

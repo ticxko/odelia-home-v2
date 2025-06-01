@@ -14,17 +14,20 @@ const stickyHeader = ref(false);
 onBeforeMount(() => {
     window.addEventListener('scroll', handleScroll);
 });
+  
 function handleScroll() {
     if (window.pageYOffset) {
         stickyHeader.value = true;
     } else {
         stickyHeader.value = false;
     }
+
 }
 </script>
 <template>
     <div>
-        <div class="bg-background">
+        <div class="bg-background-odelia">
+      
             <!-- -----------------------------------------------
                     Start Header
                     ----------------------------------------------- -->
@@ -32,11 +35,11 @@ function handleScroll() {
                 <v-container class="py-0 max-width-1218">
                     <v-toolbar class="d-flex align-center">
                         <!-- Logo -->
-                       
+                        <!-- 
                         <div class="d-flex align-center" style="height: 100%;">
                             <Logo />
                         </div>
-
+                        -->
                         <!-- Desktop view Navigation -->
                         <div class="navigation mx-auto d-lg-flex d-none">
                             <Navigations />
@@ -55,6 +58,7 @@ function handleScroll() {
             <!-- -----------------------------------------------
                     End Header
                     ----------------------------------------------- -->
+    
         </div>
 
         <!----sidebar menu drawer start----->
@@ -70,8 +74,4 @@ function handleScroll() {
 }
 </style>
 
-<style scoped>
-.custom-blocked-div {
 
-}
-</style>
