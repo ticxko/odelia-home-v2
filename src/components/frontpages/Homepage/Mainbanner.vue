@@ -11,7 +11,7 @@ import Logo from '@/layouts/full/logo/Logo.vue';
                     <div class="d-flex align-center" style="height: 100%;">
                             <Logo />
                     </div>
-                    <h1 class="textPrimary fraunces-h1">
+                    <h1>
                         <b>Pelayanan Berkualitas dari Bidan Indonesia</b>
                     </h1>
                     <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
@@ -47,11 +47,18 @@ import Logo from '@/layouts/full/logo/Logo.vue';
 <style scoped>
 h1 {
     font-family: 'Fraunces', serif;
+    color: rgb(35, 35, 35);
+    text-align: left;
+    font-weight: 800;
+    font-size: 48px;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    color:slategrey;
+    color: rgb(55, 55, 55);
+    text-align: left;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 @font-face {
