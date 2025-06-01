@@ -15,7 +15,7 @@ const config: ConfigProps = {
     mini_sidebar: false,
     setHorizontalLayout: false, // Horizontal layout
     setRTLLayout: false, // RTL layout
-    actTheme: 'DARK_BLUE_THEME',
+    actTheme: 'ODELIA_THEME',
     boxed: true,
     setBorderCard: false
 };
