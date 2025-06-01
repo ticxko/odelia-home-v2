@@ -7,7 +7,10 @@ import { VTimePicker } from 'vuetify/labs/VTimePicker'
 import { VTreeview } from 'vuetify/labs/VTreeview'
 //DragScroll
 import { VueDraggableNext } from 'vue-draggable-next'
-import { BLUE_THEME} from '@/theme/LightTheme';
+import { 
+    BLUE_THEME, 
+    ODELIA_THEME
+} from '@/theme/LightTheme';
 import {
     DARK_BLUE_THEME,
     DARK_AQUA_THEME,
@@ -30,6 +33,7 @@ export default createVuetify({
         defaultTheme: 'BLUE_THEME',
         themes: {
             BLUE_THEME,
+            ODELIA_THEME,
             DARK_BLUE_THEME,
             DARK_AQUA_THEME,
             DARK_ORANGE_THEME,

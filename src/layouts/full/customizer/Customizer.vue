@@ -15,6 +15,10 @@ const themeColors = ref([
         bg: 'themeBlue'
     },
     {
+        name: 'ODELIA_THEME',
+        bg: 'themeOdelia'
+    },
+    {
         name: 'AQUA_THEME',
         bg: 'themeAqua'
     },
