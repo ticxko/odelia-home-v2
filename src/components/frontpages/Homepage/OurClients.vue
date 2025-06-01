@@ -9,13 +9,19 @@ import { Icon } from '@iconify/vue';
             <v-row>
                 <v-col cols="12" lg="5">
                     <img src="@\assets\images\landingpage\frontpages\odelia-services.png" alt="bidan-delima" class="w-100" />
-                    <h2 class="display-1 textPrimary font-weight-bold">Lebih dari 8,000 Bidan telah terdaftar and teregistrasi dengan Satu Sehat</h2>
-                    
-                    <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
+                     
+                </v-col>
+                <v-col cols="12" lg="7">
+                    <v-row>
+                        <v-col cols="12">
+                            <h2 class="display-1 textPrimary font-weight-bold">Lebih dari 8,000 Bidan telah terdaftar and teregistrasi dengan Satu Sehat</h2>
+                            <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
                         <div class="d-sm-flex text-muted">
                             <h3 class="font-weight-medium ml-2">Beragam layanan yang kami sediakan untuk membantu bidan dalam meningkatkan kualitas pelayanan kesehatan ibu dan anak.</h3>
                         </div>
                     </div>
+                        </v-col>
+                    </v-row>
                 </v-col>
             </v-row>
             <v-row>
