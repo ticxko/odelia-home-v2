@@ -8,28 +8,28 @@ import review3 from '@/assets/images/profile/user-3.jpg';
 const Features: Feature[] = [
     {
         icon: 'tabler:chart-bubble',
-        title: 'Expert Advisor',
+        title: 'Rekam Medis Elektronik',
         subtitle: 'Suspendisse vestibulum eu erat ac scelerisque.',
         bgcolor: 'lighterror',
         color: 'error'
     },
     {
         icon: 'tabler:building-store',
-        title: 'Effective Support',
+        title: 'Instrumen Bidan Delima',
         subtitle: 'Suspendisse vestibulum eu erat ac scelerisque.',
         bgcolor: 'lightprimary',
         color: 'primary'
     },
     {
         icon: 'material-symbols:category-outline',
-        title: 'Low Fees',
+        title: 'Find Midwives',
         subtitle: 'Suspendisse vestibulum eu erat ac scelerisque.',
         bgcolor: 'lightsuccess',
         color: 'success'
     },
     {
         icon: 'material-symbols:earthquake',
-        title: 'Loan Facility',
+        title: 'E-Learning',
         subtitle: 'Suspendisse vestibulum eu erat ac scelerisque.',
         bgcolor: 'grey100',
         color: 'dark '
