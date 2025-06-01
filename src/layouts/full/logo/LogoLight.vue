@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
-import logo from '@/assets/images/logos/reir-small-logo-03-40px.png';
+import logo from '@/assets/images/logos/odelia-logo.png';
 
 </script>
 <template>
