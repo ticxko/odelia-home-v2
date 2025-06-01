@@ -15,12 +15,7 @@ import { Icon } from '@iconify/vue';
                             <h3 class="font-weight-medium ml-2">Beragam layanan yang kami sediakan untuk membantu bidan dalam meningkatkan kualitas pelayanan kesehatan ibu dan anak.</h3>
                         </div>
                     </div>
-                    <RouterLink
-                        to=""
-                        target="_blank"
-                        class="text-15 text-hover-primary font-weight-bold underline-link-6 d-flex justify-start"
-                        >Request a Callback</RouterLink
-                    >
+                  
                 </v-col>
                 <v-col cols="12" lg="7" class="pt-lg-0 pt-8">
                     <v-row>
@@ -48,6 +43,13 @@ h1 {
     text-align: left;
     font-weight: 800;
     font-size: 48px;
+}
+h2 {
+    font-family: 'Fraunces', serif;
+    color: rgb(35, 35, 35);
+    text-align: left;
+    font-weight: 800;
+    font-size: 35px;
 }
 
 h3 {
