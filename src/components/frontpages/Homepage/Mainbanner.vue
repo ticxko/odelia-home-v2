@@ -59,7 +59,7 @@ const technology = ref([
                 </v-col>
                 <v-col cols="12" lg="6">
                     <div class="main-banner d-lg-block d-none">
-                        <img src="@/assets/images/front-pages/background/odelia-mainbanner.png" alt="banner-right-image" class="rtlImg" />
+                        <img src="@/assets/images/front-pages/background/hero-x1.png" alt="banner-right-image" class="rtlImg" />
                     </div>
                 </v-col>
             </v-row>
