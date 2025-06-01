@@ -28,7 +28,7 @@ function handleScroll() {
             <!-- -----------------------------------------------
                     Start Header
                     ----------------------------------------------- -->
-            <v-app-bar height="80" class="front-lp-header position-relative " flat>
+            <v-app-bar height="80" class="front-lp-header position-relative " flat :class="stickyHeader ? 'sticky-header py-0' : 'py-0'">
                 <v-container class="py-0 max-width-1218">
                     <v-toolbar class="d-flex align-center">
                         <!-- Logo -->
