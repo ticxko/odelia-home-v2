@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Outfit', serif;
+    font-family: serif;
     color:slategrey;
 }
 
