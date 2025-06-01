@@ -16,8 +16,9 @@ import { Icon } from '@iconify/vue';
                             <h3 class="font-weight-medium ml-2">Beragam layanan yang kami sediakan untuk membantu bidan dalam meningkatkan kualitas pelayanan kesehatan ibu dan anak.</h3>
                         </div>
                     </div>
-                  
                 </v-col>
+            </v-row>
+            <v-row>
                 <v-col cols="12" lg="7" class="pt-lg-0 pt-8">
                     <v-row>
                         <v-col cols="12" sm="6" v-for="item in Features" :key="item.icon">
