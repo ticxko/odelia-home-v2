@@ -12,11 +12,11 @@ import Logo from '@/layouts/full/logo/Logo.vue';
                             <Logo />
                     </div>
                     <h1 class="text-56 textPrimary font-weight-medium fraunces-h1">
-                        <b>Pelayanan Berkualitas untuk Buah Hati Anda</b>
+                        <b>Pelayanan Berkualitas dari Bidan Indonesia</b>
                     </h1>
                     <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
                         <div class="d-sm-flex text-muted">
-                            <h2 class="font-weight-medium ml-2">Tingkatkan kualitas pelayanan bidan Anda dan pastikan setiap momen berharga terdokumentasi dengan tepat di era digital ini. Bergabunglah sekarang untuk pelayanan yang lebih baik</h2>
+                            <h3 class="font-weight-medium ml-2">Tingkatkan kualitas pelayanan bidan Anda dan pastikan setiap momen berharga terdokumentasi dengan tepat di era digital ini. Bergabunglah sekarang untuk pelayanan yang lebih baik</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-wrap  ga-sm-6 ga-3 pt-9 pb-7 justify-md-start justify-center align-center technology">
@@ -49,8 +49,8 @@ h1 {
     font-family: 'Fraunces', serif;
 }
 
-h2 {
-    font-family: serif;
+h3 {
+    font-family: 'Roboto', sans-serif;
     color:slategrey;
 }
 
@@ -61,6 +61,12 @@ h2 {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('@/assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Outfit';

@@ -16,7 +16,7 @@ import Logo from '@/layouts/full/logo/LogoLight.vue';
                         <div class="d-flex flex-column ga-4 mt-lg-n4">
                            <!-- <div v-for="item in FooterMenu1" :key="item.menu"> --> 
                             <div class="text-white text-14 text-grey100 font-weight-regular text-decoration-none"
-                                > <b>REIR Technology Consulting</b><br>Grand Panglima Polim Kav 88<br>Jakarta Selatan 12160<br>hello@reirtech.com<br>(021) 27094838                                    <!-- {{ item.menu }} --> 
+                                > <b>Sekretariat Bidan Delima</b><br>Pengurus Pusat Ikatan Bidan Indonesia<br>Jl. Johar Baru V No. 13 D, Jakarta Pusat<br>admin@bidan-delima.id<br>(021) 4254595                                  <!-- {{ item.menu }} --> 
                             </div>
                         </div>
                     </v-col>
@@ -104,7 +104,7 @@ import Logo from '@/layouts/full/logo/LogoLight.vue';
             <div class="py-sm-2 py-2">
                 <div class="d-sm-flex justify-space-between">
                     <div class="d-flex ga-2  justify-sm-start justify-center">
-                        <span class="text-white text-15 text-grey100"><b>PT. Rencana Mahkota Akasia &copy; 2025</b></span>   
+                        <span class="text-white text-15 text-grey100"><b>Ikatan Bidan Indonesia &copy; 2025</b></span>   
                     </div>
                     
                 </div>
