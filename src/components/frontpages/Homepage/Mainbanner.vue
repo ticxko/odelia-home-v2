@@ -16,13 +16,14 @@ import Logo from '@/layouts/full/logo/Logo.vue';
                     </h1>
                     <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3">
                         <div class="d-sm-flex text-muted">
-                            <h3 class="font-weight-medium ml-2">Tingkatkan kualitas pelayanan bidan Anda dan pastikan setiap momen berharga terdokumentasi dengan tepat di era digital ini. Bergabunglah sekarang untuk pelayanan yang lebih baik</h3>
+                            <h3 class="font-weight-medium">Tingkatkan kualitas dan kapabilitas kebidanan Anda dengan bergabung menjadi anggota Bidan Delima. Gunakan aplikasi Odelia untuk pelayanan Ibu dan Anak yang lebih baik</h3>
                         </div>
                     </div>
                     <div class="d-flex flex-wrap  ga-sm-6 ga-3 pt-9 pb-7 justify-md-start justify-center align-center technology">
                     </div> 
                     <div class="d-flex justify-md-start justify-center">
-                        <v-btn color="primary" rounded="pill" class="px-8 transform-none m-btn-full" size="large"  href="/auth/login" target="_blank">Daftar Baru</v-btn>
+                        <v-btn outline rounded="pill" class="px-8 transform-none m-btn-full" size="large"  href="/auth/login" target="_blank">Daftar Odelia Sekarang<div class="ml-2"><v-icon color="primary">mdi-arrow-right-circle</v-icon></div>
+                        </v-btn>
                     </div>
                 </v-col>
                 <!-- 
@@ -69,12 +70,7 @@ h3 {
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Outfit';
-  src: url('@/assets/fonts/Outfit-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 
 </style>

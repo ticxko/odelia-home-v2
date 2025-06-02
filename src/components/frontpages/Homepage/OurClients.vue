@@ -14,7 +14,7 @@ import { Icon } from '@iconify/vue';
                 <v-col cols="12" lg="7">
                     <v-row>
                         <v-col cols="12">
-                            <h2 class="display-1 textPrimary font-weight-bold">Lebih dari 8,000 Bidan telah terdaftar dalam Odelia dan terintegrasi dengan Satu Sehat</h2>
+                            <h2 class="display-1 textPrimary font-weight-bold">Lebih dari 8,000 Bidan seluruh Indonesia telah terdaftar dalam Odelia dan terintegrasi dengan Satu Sehat</h2>
                             <div class="d-sm-flex text-left justify-md-start justify-left pt-5 pb-5">
                                 <div class="d-sm-flex text-muted">
                                 <h3 class="font-weight-medium">Beragam layanan yang kami sediakan untuk membantu bidan dalam meningkatkan kualitas pelayanan kesehatan ibu dan anak</h3>

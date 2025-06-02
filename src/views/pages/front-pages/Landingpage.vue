@@ -8,6 +8,7 @@ import FeatureTabs from '@/components/frontpages/Homepage/FeatureTabs.vue';
 import Highlights from '@/components/frontpages/Homepage/Highlights.vue';
 import Mainbanner from '@/components/frontpages/Homepage/Mainbanner.vue';
 import OurClients from '@/components/frontpages/Homepage/OurClients.vue';
+import OurFeatures from '@/components/frontpages/Homepage/OurFeatures.vue';
 import OurTeam from '@/components/frontpages/Homepage/OurTeam.vue';
 import Packages from '@/components/frontpages/Homepage/Packages.vue';
 import PurchaseTemplate from '@/components/frontpages/Homepage/PurchaseTemplate.vue';
@@ -19,6 +20,7 @@ import DefaultLayout from '@/views/pages/front-pages/Layout.vue';
     <DefaultLayout>
         <Mainbanner />
         <OurClients />
+        <OurFeatures />
         <FeatureTabs />
         <OurTeam/>
         <ContactBar/>
