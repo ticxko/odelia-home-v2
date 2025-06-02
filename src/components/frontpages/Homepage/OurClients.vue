@@ -25,7 +25,7 @@ import { Icon } from '@iconify/vue';
                             <div class="d-sm-flex text-muted"><img src="@\assets\images\logos\ibi-logo-v4.png" /></div>
                         </v-col>
                         <v-col cols="10" lg="6" class="pt-15">
-                            <div class="d-sm-flex text-muted"><img src="@\assets\images\logos\satusehat-logo-v4.png" /></div>
+                            <div class="d-sm-flex text-muted justify-right"><img src="@\assets\images\logos\satusehat-logo-v4.png" /></div>
                         </v-col>                  
                     </v-row>
                     
