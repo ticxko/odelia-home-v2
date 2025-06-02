@@ -11,20 +11,20 @@ import { Icon } from '@iconify/vue';
                     <img src="@\assets\images\landingpage\frontpages\odelia-services.png" alt="bidan-delima" class="w-100" />
                      
                 </v-col>
-                <v-col cols="12" lg="8">
+                <v-col cols="12" lg="7">
                     <v-row>
                         <v-col cols="12">
                             <h2 class="display-1 textPrimary font-weight-bold">Lebih dari 8,000 Bidan telah terdaftar dalam Odelia dan terintegrasi dengan Satu Sehat</h2>
-                            <div class="d-sm-flex text-left justify-md-start justify-center pt-5 gap-3 pb-5">
+                            <div class="d-sm-flex text-left justify-md-start justify-left pt-5 pb-5">
                                 <div class="d-sm-flex text-muted">
-                                <h3 class="font-weight-medium ml-2">Beragam layanan yang kami sediakan untuk membantu bidan dalam meningkatkan kualitas pelayanan kesehatan ibu dan anak.</h3>
+                                <h3 class="font-weight-medium">Beragam layanan yang kami sediakan untuk membantu bidan dalam meningkatkan kualitas pelayanan kesehatan ibu dan anak</h3>
                                 </div>
                             </div>
                     <v-row>
-                        <v-col cols="12" lg="6" class="pt-15">
+                        <v-col cols="12" lg="8" class="pt-15">
                             <div class="d-sm-flex text-muted"><img src="@\assets\images\logos\ibi-logo-v4.png" /></div>
                         </v-col>
-                        <v-col cols="12" lg="6" class="pt-15 justify-right">
+                        <v-col cols="12" lg="4" class="pt-15 justify-right">
                             <div class="d-sm-flex text-muted"><img src="@\assets\images\logos\satusehat-logo-v4.png" /></div>
                         </v-col>                  
                     </v-row>
