@@ -11,7 +11,7 @@ import { Icon } from '@iconify/vue';
                     <img src="@\assets\images\landingpage\frontpages\odelia-services.png" alt="bidan-delima" class="w-100" />
                      
                 </v-col>
-                <v-col cols="12" lg="7">
+                <v-col cols="12" lg="20">
                     <v-row>
                         <v-col cols="12">
                             <h2 class="display-1 textPrimary font-weight-bold">Lebih dari 8,000 Bidan telah terdaftar dalam Odelia dan terintegrasi dengan Satu Sehat</h2>
@@ -22,10 +22,10 @@ import { Icon } from '@iconify/vue';
                             </div>
                     <v-row>
                         <v-col cols="12" lg="6" class="pt-15">
-                            <img src="@\assets\images\logos\ibi-logo-v4.png" />
+                            <div class="d-sm-flex text-muted"><img src="@\assets\images\logos\ibi-logo-v4.png" /></div>
                         </v-col>
                         <v-col cols="12" lg="6" class="pt-15 justify-right">
-                            <img src="@\assets\images\logos\satusehat-logo-v4.png" />
+                            <div class="d-sm-flex text-muted"><img src="@\assets\images\logos\satusehat-logo-v4.png" /></div>
                         </v-col>                  
                     </v-row>
                     
