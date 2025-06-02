@@ -22,10 +22,10 @@ import { Icon } from '@iconify/vue';
                             </div>
                     <v-row>
                         <v-col cols="12" lg="6" class="pt-15">
-                            <div class="d-sm-flex text-muted"><img src="@\assets\images\logos\ibi-logo-v4.png" /></div>
+                            <img src="@\assets\images\logos\ibi-logo-v4.png" />
                         </v-col>
-                        <v-col cols="2"  class="pt-15 justify-right">
-                            <div class="d-sm-flex text-muted"><img src="@\assets\images\logos\satusehat-logo-v4.png" /></div>
+                        <v-col cols="12" lg="6" class="pt-15 justify-right">
+                            <img src="@\assets\images\logos\satusehat-logo-v4.png" />
                         </v-col>                  
                     </v-row>
                     
