@@ -11,7 +11,7 @@ import { Icon } from '@iconify/vue';
                     <img src="@\assets\images\landingpage\frontpages\odelia-services.png" alt="bidan-delima" class="w-100" />
                      
                 </v-col>
-                <v-col cols="12" lg="10">
+                <v-col cols="12" lg="8">
                     <v-row>
                         <v-col cols="12">
                             <h2 class="display-1 textPrimary font-weight-bold">Lebih dari 8,000 Bidan telah terdaftar dalam Odelia dan terintegrasi dengan Satu Sehat</h2>
